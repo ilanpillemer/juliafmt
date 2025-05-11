@@ -1,0 +1,9 @@
+name = "juliafmt"
+uuid = "a6b5f6fa-09b6-43c6-b8b6-4e9116c374c6"
+authors = ["\"Ilan <ilan.pillemer@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+JuliaFormatter = "98e50ef6-434e-11e9-1051-2b60c6c9e899"
+PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
