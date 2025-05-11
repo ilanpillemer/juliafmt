@@ -5,7 +5,7 @@ greet() = print("Hello World!")
 function julia_main()::Cint
     try
         real_main()
-     catch
+    catch
         Base.invokelatest(Base.display_error, Base.catch_stack())
         return 1
     end
